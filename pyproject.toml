@@ -5,11 +5,29 @@ description = ""
 authors = ["Althayr Nazaret <althabrandao@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8,<3.11"
 elasticsearch = "7.17.2"
 requests = "^2.27.1"
+tdqm = "^0.0.1"
+numpy = "^1.22.4"
+ir-datasets = "^0.5.1"
+pandas = "^1.4.2"
+pyarrow = "^8.0.0"
+snakeviz = "^2.1.1"
+pymongo = "^4.1.1"
+tqdm = "^4.64.0"
+jupyter = "^1.0.0"
+scipy = "^1.8.1"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+scikit-learn = "^1.1.1"
+statsmodels = "^0.13.2"
+xgboost = "^1.6.1"
+gensim = "^4.2.0"
+simple-elmo = "^0.9.0"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^22.3.0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
